@@ -1,0 +1,86 @@
+/* style.css */
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #FAFAFA;
+    overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Class khusus untuk animasi manual tanpa AOS */
+.animate-enter {
+    opacity: 0; /* Mulai invisible */
+    animation: fadeIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+/* Gradient Text */
+.text-gradient {
+    background: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Blob Background */
+.blob-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+}
+.blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.4;
+}
+
+/* Lightbox Transitions */
+#lightbox {
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+#lightbox.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+#lightbox:not(.hidden) {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+#lightbox-img {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
