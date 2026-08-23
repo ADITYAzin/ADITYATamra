@@ -56,9 +56,9 @@ const content = {
             sectionHardSkills: 'Hard Skill',
             hardSkills: ['UI/UX Design', 'Brand Design', 'Graphic Design', 'Quality Assurance', 'Frontend Web Development'],
             sectionTools: 'Tools',
-            tools: ['Figma', 'Gemini AI','Figma AI','Notion', 'Maze' , 'Canva' ,'Wordpress', 'HTML', 'TailwindCSS', 'Javascript'],
+            tools: ['Figma', 'Gemini AI','Figma AI','NotebookLM','Notion', 'Maze' , 'Canva' ,'Wordpress', 'HTML', 'TailwindCSS', 'Javascript', 'OpenCode', '9Router'],
             workStyle: 'Soft Skills',
-            styles: ['Teamwork', 'Problem Solving', 'Adaptability'],
+            styles: ['Responsibility', 'Teamwork', 'Adaptable', 'Problem Solving'],
             stats: { projects: "Proyek Selesai", awards: "Penghargaan" },
             education: 'Pendidikan',
             eduList: [ { title: 'SMK Telkom Sidoarjo', school: 'Teknik Jaringan Komputer • Sekarang' }, { title: 'SMP Muhammadiyah 10 Sidoarjo', school: '2023' } ]
@@ -117,9 +117,9 @@ const content = {
             sectionHardSkills: 'Hard Skills',
             hardSkills: ['UI/UX Design', 'Brand Design', 'Graphic Design', 'Frontend Web Development'],
             sectionTools: 'Tools',
-            tools: ['Figma', 'Canva', 'Framer', 'Notion', 'Wordpress', 'HTML', 'TailwindCSS', 'Javascript'],
+            tools: ['Figma', 'Canva', 'Framer', 'NotebookLM', 'Notion', 'Wordpress', 'HTML', 'TailwindCSS', 'Javascript', 'OpenCode', '9Router'],
             workStyle: 'Soft Skills',
-            styles: ['Teamwork', 'Problem Solving', 'Adaptability'],
+            styles: ['Responsibility', 'Teamwork', 'Adaptable', 'Problem Solving'],
             stats: { projects: "Completed Projects", awards: "Awards" },
             education: 'Education',
             eduList: [ { title: 'SMK Telkom Sidoarjo', school: 'Network Engineering • Present' }, { title: 'SMP Muhammadiyah 10 Sidoarjo', school: '2023' } ]
