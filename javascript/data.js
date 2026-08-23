@@ -40,7 +40,7 @@ const content = {
         projectsPage: {
             title: 'Karya',
             subtitle: 'Kumpulan karya terpilih yang menampilkan proses berpikir dan hasil visual.',
-            filters: ['Semua', 'UI/UX Design', 'Brand Design', 'Frontend Web Development', 'Graphic Design', 'Lainnya'],
+            filters: ['Semua', 'UI/UX Design', 'Brand Design', 'Graphic Design', 'Frontend Web Development', 'Lainnya'],
             viewCase: 'Lihat Detail Karya'
         },
         detailPage: {
@@ -101,7 +101,7 @@ const content = {
         projectsPage: {
             title: 'Works',
             subtitle: 'A collection of selected projects showcasing thinking process and visual results.',
-            filters: ['All', 'UI/UX Design', 'Brand Design', 'Frontend Web Development', 'Graphic Design', 'Others'],
+            filters: ['All', 'UI/UX Design', 'Brand Design', 'Graphic Design', 'Frontend Web Development', 'Others'],
             viewCase: 'Read Case Study'
         },
         detailPage: {

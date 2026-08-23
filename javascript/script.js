@@ -338,7 +338,7 @@ function renderHome() {
 
 function renderProjects() {
     const t = content[state.lang];
-    const categories = state.lang === 'id' ? ['Semua', 'UI/UX Design', 'Brand Design', 'Frontend Web Development', 'Graphic Design', 'Lainnya'] : ['All', 'UI/UX Design', 'Brand Design', 'Frontend Web Development', 'Graphic Design', 'Others'];
+    const categories = state.lang === 'id' ? ['Semua', 'UI/UX Design', 'Brand Design', 'Graphic Design', 'Frontend Web Development', 'Lainnya'] : ['All', 'UI/UX Design', 'Brand Design', 'Graphic Design', 'Frontend Web Development', 'Others'];
     const filterMap = {
         'Semua': 'All', 'UI/UX Design': 'UI/UX Design', 'Brand Design': 'Brand Design', 'Frontend Web Development': 'Frontend Web Development', 'Graphic Design': 'Graphic Design', 'Lainnya': 'Lainnya',
         'All': 'All', 'UI/UX Design': 'UI/UX Design', 'Brand Design': 'Brand Design', 'Frontend Web Development': 'Frontend Web Development', 'Graphic Design': 'Graphic Design', 'Others': 'Others'
