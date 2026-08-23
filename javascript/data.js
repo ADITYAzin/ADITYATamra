@@ -40,7 +40,7 @@ const content = {
         projectsPage: {
             title: 'Karya',
             subtitle: 'Kumpulan karya terpilih yang menampilkan proses berpikir dan hasil visual.',
-            filters: ['Semua', 'UI/UX Design', 'Brand Design', 'Graphic Design', 'Lainnya'],
+            filters: ['Semua', 'UI/UX Design', 'Brand Design', 'Frontend Web Development', 'Graphic Design', 'Lainnya'],
             viewCase: 'Lihat Detail Karya'
         },
         detailPage: {
@@ -101,7 +101,7 @@ const content = {
         projectsPage: {
             title: 'Works',
             subtitle: 'A collection of selected projects showcasing thinking process and visual results.',
-            filters: ['All', 'UI/UX Design', 'Brand Design', 'Graphic Design', 'Others'],
+            filters: ['All', 'UI/UX Design', 'Brand Design', 'Frontend Web Development', 'Graphic Design', 'Others'],
             viewCase: 'Read Case Study'
         },
         detailPage: {
@@ -674,6 +674,137 @@ const projectsData = [
                     }
                 }, 
                 outcome: { stats: [{ label: "Position", value: "1st Place" }, { label: "Audience Choice", value: "Favorite" }], learnings: ["Good design can elevate the value of traditional products."] } 
+            } 
+        } 
+    },
+    // --- FRONTEND WEB DEVELOPMENT ---
+    { 
+        id: 16, // SUBLiMS
+        category: "Frontend Web Development", 
+        year: "2026", 
+        tools: ["HTML", "TailwindCSS", "JavaScript"], 
+        liveUrl: "https://sublims.id/id",
+        repoUrl: "https://github.com/ADITYAzin/sublims",
+        image: "img/sublims.png",
+        content: { 
+            id: { 
+                title: "SUBLiMS", role: "Frontend Developer", platform: "Web App", impact: "Digitalisasi Perpustakaan Sekolah", overview: "Membangun website company profile dan sistem RFQ keranjang produk berbasis Next.js dengan integrasi API Email(Resend Provider).", problem: "Pencatatan katalog dan transaksi peminjaman buku yang masih manual membuat layanan perpustakaan lambat, rawan kesalahan data, dan sulit dilacak.", goals: ["Katalog buku digital & pencarian cepat", "Alur peminjaman-pengembalian efisien", "Antarmuka responsif multi-perangkat"], 
+                process: { 
+                    research: { 
+                        title: "Riset & Analisis Kebutuhan", desc: "Memetakan alur layanan perpustakaan dari sisi petugas maupun siswa.", 
+                        step1: { 
+                            title: "Observasi", icon: "search", text: "Melakukan observasi langsung terhadap alur pencarian buku dan pencatatan peminjaman manual di perpustakaan untuk mengidentifikasi titik-titik hambatan yang dirasakan petugas maupun siswa.",
+                            attachments: []
+                        },
+                        step2: { 
+                            title: "Analisis Kebutuhan", icon: "crosshair", text: "Merumuskan hasil observasi menjadi daftar prioritas fitur yang diterjemahkan ke dalam struktur halaman dan komponen antarmuka.",
+                            attachments: []
+                        }
+                    }, 
+                    ideation: { title: "Ideasi Fitur", desc: "Menentukan fitur inti sesuai kebutuhan pengguna.", points: ["Katalog buku digital dengan pencarian real-time", "Dashboard admin peminjaman & pengembalian", "Notifikasi keterlambatan dan jatuh tempo", "Manajemen stok & riwayat transaksi", "Layout responsif dengan pendekatan mobile-first"] },
+                    prototype: { 
+                        title: "Implementasi Antarmuka", desc: "Menerapkan desain ke kode menggunakan HTML, TailwindCSS, dan JavaScript.",
+                        images: [
+                            "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=1200",
+                            "https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&q=80&w=1200",
+                            "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&q=80&w=1200",
+                            "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&q=80&w=1200"
+                        ]
+                    }
+                }, 
+                outcome: { stats: [{ label: "Efisiensi Peminjaman", value: "+60%" }, { label: "Halaman Responsif", value: "100%" }], learnings: ["Komponen antarmuka yang konsisten mempercepat proses development sekaligus memudahkan pemeliharaan."] } 
+            }, 
+            en: { 
+                title: "SUBLiMS", role: "Frontend Developer", platform: "Web App", impact: "School Library Digitalization", overview: "Building a responsive and intuitive interface for the School Library Management System (SUBLiMS) to simplify catalog access and book borrowing transactions at the school library.", problem: "Manual recording of catalogs and borrowing transactions made library services slow, error-prone, and difficult to track.", goals: ["Digital catalog & fast search", "Efficient borrow-return workflow", "Responsive multi-device interface"], 
+                process: { 
+                    research: { 
+                        title: "Research & Needs Analysis", desc: "Mapping the library service flow from both staff and student perspectives.", 
+                        step1: { 
+                            title: "Observation", icon: "search", text: "Conducting direct observation of the manual book search and borrowing recording workflow in the library to identify friction points experienced by both staff and students.",
+                            attachments: []
+                        },
+                        step2: { 
+                            title: "Needs Analysis", icon: "crosshair", text: "Distilling observation results into a prioritized feature list, translated into page structure and interface components.",
+                            attachments: []
+                        }
+                    }, 
+                    ideation: { title: "Feature Ideation", desc: "Defining core features based on user needs.", points: ["Digital book catalog with real-time search", "Admin dashboard for borrowing & returns", "Overdue and due-date notifications", "Stock management & transaction history", "Responsive layout with mobile-first approach"] },
+                    prototype: { 
+                        title: "Interface Implementation", desc: "Translating design into code using HTML, TailwindCSS, and JavaScript.",
+                        images: [
+                            "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=1200",
+                            "https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&q=80&w=1200",
+                            "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&q=80&w=1200",
+                            "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&q=80&w=1200"
+                        ]
+                    }
+                }, 
+                outcome: { stats: [{ label: "Borrowing Efficiency", value: "+60%" }, { label: "Responsive Pages", value: "100%" }], learnings: ["Consistent UI components speed up development and simplify maintenance."] } 
+            } 
+        } 
+    },
+    { 
+        id: 17, // Samling AI (catatan: gambar mockup desain dipakai sebagai placeholder screenshot implementasi)
+        category: "Frontend Web Development", 
+        year: "2025", 
+        tools: ["HTML", "TailwindCSS", "JavaScript", "Gemini API"], 
+        liveUrl: "https://samling-ai.vercel.app",
+        repoUrl: "https://github.com/Falrafa4/samling-ai",
+        image: "img/samling-ai.png",
+        content: { 
+            id: { 
+                title: "Samling AI", role: "Frontend Developer", platform: "Web App", impact: "Juara 1 Festika Jatim 2025", overview: "Pengembangan lanjutan - Samling AI beralih menjadi teknologi prediktif integrasi AI & Chatbot untuk DLH Jakarta.", problem: "Menerjemahkan desain UI/UX yang kompleks menjadi antarmuka web fungsional dengan visualisasi data IoT secara real-time dalam waktu pengerjaan kompetisi yang sangat terbatas.", goals: ["Implementasi desain yang presisi", "Visualisasi data real-time yang interaktif", "Performa & responsivitas optimal"], 
+                process: { 
+                    research: { 
+                        title: "Riset & Translasi Desain", desc: "Menyiapkan fondasi implementasi dari hasil riset dan desain UI/UX.", 
+                        step1: { 
+                            title: "Translasi Desain ke Kode", icon: "layout-template", text: "Memecah file desain UI/UX Samling menjadi komponen-komponen frontend yang dapat dibangun secara sistematis, mulai dari navigasi, kartu data, hingga tampilan peta.",
+                            attachments: []
+                        },
+                        step2: { 
+                            title: "Struktur Komponen", icon: "crosshair", text: "Menyusun struktur folder dan arsitektur komponen yang rapi agar kolaborasi tim berjalan efisien serta memudahkan integrasi data IoT dan AI di kemudian hari.",
+                            attachments: []
+                        }
+                    }, 
+                    ideation: { title: "Ideasi Implementasi", desc: "Prioritas fitur yang diimplementasikan ke dalam web.", points: ["Live Map monitoring kapasitas TPS", "Visualisasi statistik & tren sampah interaktif", "Alur pelaporan warga yang intuitif", "Dashboard administrator & penugasan truk sampah", "Optimasi loading dan aksesibilitas"] },
+                    prototype: { 
+                        title: "Antarmuka Hasil Implementasi", desc: "Tampilan web Samling AI yang dibangun dengan HTML, TailwindCSS, dan JavaScript.",
+                        images: [
+                            "img/uimockup/Samling_Mockup_1.png",
+                            "img/uimockup/Samling_Mockup_2.png",
+                            "img/uimockup/Samling_Mockup_3.png",
+                            "img/uimockup/Samling_Mockup_4.png"
+                        ]
+                    }
+                }, 
+                outcome: { stats: [{ label: "Peringkat", value: "Juara 1" }, { label: "Peserta Disisihkan", value: "1400+" }], learnings: ["Komunikasi erat antara desainer dan developer membuat translasi desain ke kode jauh lebih cepat dan akurat."] } 
+            }, 
+            en: { 
+                title: "Samling AI", role: "Frontend Developer", platform: "Web App", impact: "1st Place Festika Jatim 2025", overview: "Frontend implementation of an AI-based platform integrating IoT and Web for waste management monitoring — winner of 1st Place at AREK_AI Festika Jatim 2025.", problem: "Translating a complex UI/UX design into a functional web interface with real-time IoT data visualization within a very limited competition timeframe.", goals: ["Precise design implementation", "Interactive real-time data visualization", "Optimal performance & responsiveness"], 
+                process: { 
+                    research: { 
+                        title: "Research & Design Translation", desc: "Preparing implementation foundations from research and UI/UX design results.", 
+                        step1: { 
+                            title: "Design-to-Code Translation", icon: "layout-template", text: "Breaking down the Samling UI/UX design files into systematically buildable frontend components, from navigation and data cards to map views.",
+                            attachments: []
+                        },
+                        step2: { 
+                            title: "Component Structure", icon: "crosshair", text: "Structuring a clean folder architecture and component hierarchy to enable efficient team collaboration and smooth IoT/AI data integration later on.",
+                            attachments: []
+                        }
+                    }, 
+                    ideation: { title: "Implementation Ideation", desc: "Priority features implemented into the web.", points: ["Live Map for disposal area capacity monitoring", "Interactive waste statistics & trend visualization", "Intuitive citizen reporting flow", "Administrator dashboard & waste truck assignment", "Loading optimization and accessibility"] },
+                    prototype: { 
+                        title: "Implemented Interface", desc: "The Samling AI web interface built with HTML, TailwindCSS, and JavaScript.",
+                        images: [
+                            "img/uimockup/Samling_Mockup_1.png",
+                            "img/uimockup/Samling_Mockup_2.png",
+                            "img/uimockup/Samling_Mockup_3.png",
+                            "img/uimockup/Samling_Mockup_4.png"
+                        ]
+                    }
+                }, 
+                outcome: { stats: [{ label: "Ranking", value: "1st Place" }, { label: "Participants Beaten", value: "1400+" }], learnings: ["Close communication between designer and developer makes design-to-code translation far faster and more accurate."] } 
             } 
         } 
     },
