@@ -753,7 +753,7 @@ const projectsData = [
         image: "img/samling-ai.png",
         content: { 
             id: { 
-                title: "Samling AI", role: "Frontend Developer", platform: "Web App", impact: "Juara 1 Festika Jatim 2025", overview: "Pengembangan lanjutan - Samling AI beralih menjadi teknologi prediktif integrasi AI & Chatbot untuk DLH Jakarta.", problem: "Menerjemahkan desain UI/UX yang kompleks menjadi antarmuka web fungsional dengan visualisasi data IoT secara real-time dalam waktu pengerjaan kompetisi yang sangat terbatas.", goals: ["Implementasi desain yang presisi", "Visualisasi data real-time yang interaktif", "Performa & responsivitas optimal"], 
+                title: "Samling AI", role: "Frontend Developer", platform: "Web App", impact: "Juara 1 Festika Jatim 2025", overview: "Pengembangan lanjutan - Samling AI beralih menjadi teknologi prediktif integrasi AI & Chatbot untuk DLH Jakarta. (Dalam Tahap Final)", problem: "Menerjemahkan desain UI/UX yang kompleks menjadi antarmuka web fungsional dengan visualisasi data IoT secara real-time dalam waktu pengerjaan kompetisi yang sangat terbatas.", goals: ["Implementasi desain yang presisi", "Visualisasi data real-time yang interaktif", "Performa & responsivitas optimal"], 
                 process: { 
                     research: { 
                         title: "Riset & Translasi Desain", desc: "Menyiapkan fondasi implementasi dari hasil riset dan desain UI/UX.", 
