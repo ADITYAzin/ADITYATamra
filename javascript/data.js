@@ -688,7 +688,7 @@ const projectsData = [
         image: "img/sublims.png",
         content: { 
             id: { 
-                title: "SUBLiMS", role: "Frontend Developer", platform: "Web App", impact: "Digitalisasi Perpustakaan Sekolah", overview: "Membangun website company profile dan sistem RFQ keranjang produk berbasis Next.js dengan integrasi API Email(Resend Provider).", problem: "Pencatatan katalog dan transaksi peminjaman buku yang masih manual membuat layanan perpustakaan lambat, rawan kesalahan data, dan sulit dilacak.", goals: ["Katalog buku digital & pencarian cepat", "Alur peminjaman-pengembalian efisien", "Antarmuka responsif multi-perangkat"], 
+                title: "SUBLiMS", role: "Frontend Developer", platform: "Web App", impact: "Digitalisasi Perpustakaan Sekolah", overview: "Membangun website company profile dan sistem RFQ keranjang produk berbasis Next.js dengan integrasi API Email (Resend Provider).", problem: "Pencatatan katalog dan transaksi peminjaman buku yang masih manual membuat layanan perpustakaan lambat, rawan kesalahan data, dan sulit dilacak.", goals: ["Katalog buku digital & pencarian cepat", "Alur peminjaman-pengembalian efisien", "Antarmuka responsif multi-perangkat"], 
                 process: { 
                     research: { 
                         title: "Riset & Analisis Kebutuhan", desc: "Memetakan alur layanan perpustakaan dari sisi petugas maupun siswa.", 
